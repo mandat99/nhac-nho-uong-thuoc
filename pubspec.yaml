@@ -1,0 +1,25 @@
+name: nhac_uong_thuoc
+description: Ứng dụng nhắc uống thuốc đơn giản
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.25.4
+  cloud_firestore: ^4.15.4
+  flutter_local_notifications: ^16.3.2
+  image_picker: ^1.1.0
+  google_mlkit_text_recognition: ^0.13.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
